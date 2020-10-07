@@ -7,12 +7,12 @@ namespace Task2
     {
         public static void Main(string[] args)
         {
-            string pattern = @"\b(\w+?)\s\1\b";
+            string pattern = @"[^.]* наказываются|наказывается [^.]*\.";
             string text = System.IO.File.ReadAllText(@"Input\Input.txt");
             
             foreach (Match match in Regex.Matches(text, pattern, RegexOptions.IgnoreCase))
-                Console.WriteLine("{0} (duplicates '{1}') at position {2}",
-                    match.Value, match.Groups[1].Value, match.Index);
+                Console.WriteLine("{0} at position {1}",
+                    match.Value,  match.Index);
         }
     }
 }

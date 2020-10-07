@@ -2,13 +2,20 @@
 
 namespace Task3
 {
-    public abstract class Engine
+    public class Engine
     {
-        private String EngineType;
+        private EngineType _engineType;
+        private float _oilLevel = 1;
 
-        Engine(String engineType)
+        public Engine(EngineType engineType)
         {
-            EngineType = engineType;
+            _engineType = engineType;
+        }
+        public enum EngineType
+        {
+            Diesel,
+            Electric
         }
     }
+    
 }

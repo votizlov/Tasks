@@ -1,4 +1,6 @@
-﻿namespace Task3
+﻿using System;
+
+namespace Task3
 {
     public class DieselCar : ICar
     {
@@ -8,24 +10,62 @@
         /// 0 - empty, 1 - full
         /// </summary>
         private float fuelFactor;
-        public string PrintLabel()
+
+        public DieselCar(Engine engine, Wheel[] wheels,String label)
         {
-            throw new System.NotImplementedException();
+            this.Engine = engine;
+            this.Wheels = wheels;
+            this.label = label;
         }
 
-        public void Drive()
+        private String label;
+        public string GetLabel()
         {
-            throw new System.NotImplementedException();
+            return label;
         }
 
-        public void FuelUp(float amountOfFuel)
+        public bool Drive(out String error)
         {
-            throw new System.NotImplementedException();
+            if (fuelFactor > 0)
+            {
+                error = String.Empty;
+                return true;
+            }
+            else
+            {
+                error = "No fuel";
+                return false;
+            }
         }
 
-        public void ChangeTire()
+        public bool FuelUp(float amountOfFuel,out String error)
         {
-            throw new System.NotImplementedException();
+            if (amountOfFuel + fuelFactor > 1)
+            {
+                error = "Too much fuel";
+                return false;
+            }
+            else
+            {
+                fuelFactor += amountOfFuel;
+                error = String.Empty;
+                return true;
+            }
+        }
+
+        public bool ChangeTire(Wheel wheel,int id,out String error)
+        {
+            if (id >= 0 && id < Wheels.Length)
+            {
+                Wheels[id] = wheel;
+                error = String.Empty;
+                return true;
+            }
+            else
+            {
+                error = "No such wheel";
+                return false;
+            }
         }
     }
 }

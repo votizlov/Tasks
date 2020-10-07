@@ -4,9 +4,9 @@ namespace Task3
 {
     public interface ICar
     {
-        String PrintLabel();
-        void Drive();
-        void FuelUp(float amountOfFuel);
-        void ChangeTire();
+        String GetLabel();
+        bool Drive(out String error);
+        bool FuelUp(float amountOfFuel,out String error);
+        bool ChangeTire(Wheel wheel,int id,out String error);
     }
 }
