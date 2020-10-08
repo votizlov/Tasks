@@ -5,6 +5,7 @@
     <projectFile>Task2/Task2.csproj</projectFile>
     <projectFile>Task3/Task3.csproj</projectFile>
     <projectFile>Task8/Task8.csproj</projectFile>
+    <projectFile>Task4/Task4.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -14,18 +15,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86b8b402-b607-42c0-ba48-a25788827938" name="Default Changelist" comment="Added init tasks 2,3,8">
+    <list default="true" id="86b8b402-b607-42c0-ba48-a25788827938" name="Default Changelist" comment="First atta done">
+      <change afterPath="$PROJECT_DIR$/Task4/ConnectionMobileOperator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/MobileOperator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/Task1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/Task1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Input/Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Task2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Task2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/DieselCar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/DieselCar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Engine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/ICar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/ICar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Wheel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +50,9 @@
         <option value="$PROJECT_DIR$/Task3/ICar.cs" />
         <option value="$PROJECT_DIR$/Task3/DieselCar.cs" />
         <option value="$PROJECT_DIR$/Task3/Program.cs" />
+        <option value="$PROJECT_DIR$/Task4/Program.cs" />
+        <option value="$PROJECT_DIR$/Task4/MobileOperator.cs" />
+        <option value="$PROJECT_DIR$/Task4/ConnectionMobileOperator.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +122,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Task4" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task4/Task4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Task8" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -147,6 +163,7 @@
       <item itemvalue=".NET Project.Task1" />
       <item itemvalue=".NET Project.Task3" />
       <item itemvalue=".NET Project.Task8" />
+      <item itemvalue=".NET Project.Task4" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,7 +178,7 @@
       <workItem from="1601971124434" duration="287000" />
       <workItem from="1601991615730" duration="1235000" />
       <workItem from="1602075188752" duration="95000" />
-      <workItem from="1602083589956" duration="3928000" />
+      <workItem from="1602083589956" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="Added init tasks 2,3,8">
       <created>1601971295690</created>
@@ -170,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601971295690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First atta done">
+      <created>1602087578506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602087578506</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +217,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added init tasks 2,3,8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added init tasks 2,3,8" />
+    <MESSAGE value="First atta done" />
+    <option name="LAST_COMMIT_MESSAGE" value="First atta done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601383154038">
@@ -220,10 +245,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602087541959" />
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1601389336515">
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1602088810866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1601389336515" />
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1602088810866" />
     <state x="474" y="42" key="RiderGenerateDialog" timestamp="1601388673582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -232,10 +257,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601383123958" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1601971304504">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1602087590859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601971304504" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602087590859" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602075192002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
