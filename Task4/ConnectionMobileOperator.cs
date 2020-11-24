@@ -1,18 +1,20 @@
-﻿namespace Task4
+﻿using System;
+
+namespace Task4
 {
     public class ConnectionMobileOperator : MobileOperator
     {
         private bool isCostForConnection;
 
-        public new float GetQuality()
+        public override float GetQuality()
         {
             if (isCostForConnection)
             {
-                return 0.7f * GetQuality();
+                return 0.7f * 100 * coverCange / costOfMinute;;
             }
             else
             {
-                return 1.5f * GetQuality();
+                return 1.5f * 100 * coverCange / costOfMinute;;
             }
         }
 
@@ -22,9 +24,9 @@
             this.isCostForConnection = isCostForConnection;
         }
 
-        public new void PrintInfo()
+        public override void PrintInfo()
         {
-            
+            Console.WriteLine(name + " " + coverCange+ " "  + costOfMinute+" "+isCostForConnection);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Task8
+﻿namespace Task7
 {
     /// <summary>
     /// Interaction logic for App.xaml

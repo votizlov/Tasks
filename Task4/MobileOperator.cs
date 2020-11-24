@@ -4,9 +4,9 @@ namespace Task4
 {
     public class MobileOperator
     {
-        private String name;
-        private float costOfMinute;
-        private float coverCange;
+        protected String name;
+        protected float costOfMinute;
+        protected float coverCange;
 
         public MobileOperator(String name,float coverCange,float costOfMinute)
         {
@@ -15,14 +15,14 @@ namespace Task4
             this.costOfMinute = costOfMinute;
         }
 
-        public float GetQuality()
+        public virtual float GetQuality()
         {
             return 100 * coverCange / costOfMinute;
         }
 
-        public void PrintInfo()
+        public virtual void PrintInfo()
         {
-            Console.WriteLine(name + coverCange + costOfMinute);
+            Console.WriteLine(name + " " + coverCange+ " "  + costOfMinute);
         }
     }
 }
