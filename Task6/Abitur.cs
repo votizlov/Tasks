@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Task5
+namespace Task6
 {
     public interface Abitur
     {
         string PreferredFaculty{ get; set; }
 
         void Enroll(String faculty);
-        void ChangePreferredDaculty(String faculty);
+        void ChangePreferredFaculty(String faculty);
     }
 }

@@ -7,8 +7,8 @@
         <ProjectGuid>{75FE944A-2893-439C-8DFA-036CBE8E9D23}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Task5</RootNamespace>
-        <AssemblyName>Task5</AssemblyName>
+        <RootNamespace>Task6</RootNamespace>
+        <AssemblyName>Task6</AssemblyName>
         <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
