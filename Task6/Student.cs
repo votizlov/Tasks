@@ -2,6 +2,12 @@
 {
     public abstract class Student:Abitur
     {
+        public Student(string preferredFaculty,string currentFaculty,int year)
+        {
+            Year = year;
+            PreferredFaculty = preferredFaculty;
+            CurrentFaculty = currentFaculty;
+        }
         public string PreferredFaculty { get; set; }
 
         public string CurrentFaculty { get; set; }
@@ -21,6 +27,11 @@
         public void ChangeYear(int year)
         {
             Year = year;
+        }
+
+        public Student()
+        {
+            
         }
     }
 }

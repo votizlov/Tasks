@@ -12,10 +12,8 @@ namespace Task4
             {
                 return 0.7f * 100 * coverCange / costOfMinute;;
             }
-            else
-            {
-                return 1.5f * 100 * coverCange / costOfMinute;;
-            }
+
+            return 1.5f * 100 * coverCange / costOfMinute;;
         }
 
         public ConnectionMobileOperator(string name, float coverCange, float costOfMinute, bool isCostForConnection) :

@@ -8,6 +8,7 @@ namespace Tasks
         {
             PrintArr2d(solveTask(read2dArrFromConsole()));
         }
+        public void test(){}
 
         public static float[,] solveTask(int[,] arr)
         {
@@ -64,12 +65,12 @@ namespace Tasks
             string input;
             do
             {
-                Console.WriteLine($"Please input first dimension: ");
+                Console.WriteLine("Please input first dimension: ");
             } while (!int.TryParse(input = Console.ReadLine(), out width));
 
             do
             {
-                Console.WriteLine($"Please input second dimension: ");
+                Console.WriteLine("Please input second dimension: ");
             } while (!int.TryParse(input = Console.ReadLine(), out height));
 
             int[,] items = new int[width, height];
@@ -81,7 +82,7 @@ namespace Tasks
                     int inputValue;
                     do
                     {
-                        Console.WriteLine($"Please input value for ({x},{y}): ");
+                        Console.WriteLine("Please input value for ({x},{y}): ");
                     } while (!int.TryParse(input = Console.ReadLine(), out inputValue));
 
                     items[x, y] = inputValue;

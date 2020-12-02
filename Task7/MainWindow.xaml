@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Task7"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
+    <StackPanel Name="sp">
         <TextBox DataContext="Path to classes" Name="PathText" />
         <Button Content="Load" Click="ButtonBase_OnClick" />
     </StackPanel>
