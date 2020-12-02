@@ -111,7 +111,7 @@
     <property name="XThreadsFramesViewSplitterKey" value="0.35665914" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task7">
+  <component name="RunManager" selected=".NET Project.Task5">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Task1/bin/Debug/Task1.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
