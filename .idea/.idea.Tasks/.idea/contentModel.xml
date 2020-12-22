@@ -47,6 +47,31 @@
         <e p="RuntimeLoader.cs" t="Include" />
         <e p="Task7.csproj" t="IncludeRecursive" />
       </e>
+      <e p="Task8" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Model.cs" t="Include" />
+        <e p="ModelView.xaml" t="Include" />
+        <e p="ModelView.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="ModelView.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="SimulatingObject.cs" t="Include" />
+        <e p="Task8.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Tasks.sln" t="IncludeFlat" />
     </e>
     <e p="C:\Users\Drugo\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
