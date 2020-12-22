@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Threading;
 
 namespace Task8
@@ -134,7 +132,7 @@ namespace Task8
 
         private void ToggleTrafficLight(object sender, EventArgs e)
         {
-            textCallback?.Invoke("Traffic light changed");
+            textCallback?.Invoke("Traffic light changed " + DateTime.Now);
             toggleGreenLight?.Invoke();
         }
 
