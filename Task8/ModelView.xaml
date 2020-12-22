@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Task8"
         mc:Ignorable="d"
         Title="ModelView" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Button Name="startBtn" Click="StartBtn_OnClick" Content="StartSim"></Button>
+        <Canvas Name="Canvas" Width="400" Height="400"/>
+        <TextBox Name="logText" Focusable="False"></TextBox>
+    </StackPanel>
+
+
 </Window>

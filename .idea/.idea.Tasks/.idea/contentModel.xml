@@ -48,10 +48,13 @@
         <e p="Task7.csproj" t="IncludeRecursive" />
       </e>
       <e p="Task8" t="IncludeRecursive">
+        <e p="2.PNG" t="Include" />
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Config.cs" t="Include" />
+        <e p="day.png" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="Model.cs" t="Include" />
