@@ -70,6 +70,7 @@
         <Compile Include="ModelView.xaml.cs">
           <DependentUpon>ModelView.xaml</DependentUpon>
         </Compile>
+        <Compile Include="Pedestrian.cs" />
         <Compile Include="SimulatingObject.cs" />
         <Compile Include="Properties\AssemblyInfo.cs">
             <SubType>Code</SubType>
@@ -88,8 +89,9 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="2.PNG" />
+      <Content Include="car.png" />
       <Content Include="day.png" />
+      <Content Include="pds.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
